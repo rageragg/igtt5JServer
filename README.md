@@ -6,3 +6,7 @@ Servidor de Configuracion para la aplicacion igtt5
 * Monedas 
 * Roles
 * Tipos de Objetos
+* Dispositivos
+* Modulos
+
+> Ejecucion: json-server --watch db.json --port 3004 --static ./public

@@ -335,5 +335,75 @@
       "id": "5",
       "rol": "STATISTICS"
     }
+  ],
+  "devices": [
+    {
+      "id": "1",
+      "device": "rage-001"
+    },
+    {
+      "id": "2",
+      "device": "rage-002"
+    },
+    {
+      "id": "3",
+      "device": "rage-003"
+    }
+  ],
+  "modules": [
+    {
+      "id": "1",
+      "module_co": "CFG",
+      "description": "Modulo de configuracion",
+      "activated": "Y",
+      "rols": [ "ADMINISTRATOR" ]
+    },
+    {
+      "id": "2",
+      "module_co": "GEO",
+      "description": "Modulo de geografico",
+      "activated": "Y",
+      "rols": [ "ADMINISTRATOR", "LOGISTIC" ]
+    },
+    {
+      "id": "3",
+      "module_co": "LGC",
+      "description": "Modulo de Logistica",
+      "activated": "Y",
+      "rols": [ "ADMINISTRATOR", "LOGISTIC" ]
+    },
+    {
+      "id": "4",
+      "module_co": "BSS",
+      "description": "Modulo de negocios",
+      "activated": "Y",
+      "rols": [ "ADMINISTRATOR", "BUSSINES" ]
+    },
+    {
+      "id": "5",
+      "module_co": "EMP",
+      "description": "Modulo de Nomina",
+      "activated": "Y",
+      "rols": [ "ADMINISTRATOR", "EMPLOYEES" ]
+    },
+    {
+      "id": "6",
+      "module_co": "STC",
+      "description": "Modulo de Estadisticas",
+      "activated": "Y",
+      "rols": [ "ADMINISTRATOR", "EMPLOYEES", "BUSSINES", "LOGISTIC", "STATISTICS" ]
+    }
+  ],
+  "variables": [
+    {
+      "id": "1",
+      "variable": "token",
+      "value": "token"
+    },
+    {
+      "id": "2",
+      "variable": "default_device",
+      "value": "rage-001"
+    }
   ]
 }
